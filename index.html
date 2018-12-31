@@ -4,48 +4,27 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf=8">
-    <title>Douglas Marsola | Programmer</title>
+    <title>Doug | Programmer</title>
   </head>
 
   <body>
     <header>
-      <div class="header_container">
-        <div class="header_text">
           <h3> dMars </h3>
-        </div>
-      </div> <!-- close header container -->
     </header>
 
-    <nav>
-      | <a href="index.html">Home</a> |
-      <a href="about.html">About me</a> |
-      <a href="projects.html">Projects</a> |
-      <a href="contact.html">Contact</a> |
-    </nav>
-    <div class="div-container">
-      <div class="div-headlines">
-        <p>This is div 1. All the text here has been computer-generated for best visualization and process control determination.</p>
-      </div>
-      <div class="div-headlines">
-        <dl>
-          <dt>A list of my current projects:</dt>
-            <dd>
-              <ul>
-                <li><a href="project1.html">Project #1<a></li>
-                <li><a href="project2.html">Project #2<a></li>
-                <li><a href="project3.html">Project #3<a></li>
-                <li><a href="project4.html">Project #4<a></li>
-                <li><a href="project5.html">Project #5<a></li>
-              </ul>
-            </dd>
-        </dl>
-      </div>
-      <div class="div-headlines">
-        <p>This is div 3. All the text here has been computer-generated for best visualization and process control determination.</p>
-      </div>
-  </div>
-    <footer><p>All rights reserved. &copy; 2017. Douglas Marsola.</p></footer>
 
+
+  </div>
+    <footer><p>All rights reserved. &copy; <span id="year"></span>. Doug Marsola.</p></footer>
+
+
+
+    <script>
+      let today = new Date();
+      let year = today.getFullYear();
+      // console.log(today.getFullYear());
+      document.getElementById('year').innerText = year;
+    </script>
   </body>
 
 </html>
