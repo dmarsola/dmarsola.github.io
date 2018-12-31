@@ -1,0 +1,84 @@
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1em;
+  padding: 2em;
+  background-color: whitesmoke;
+  color: navy;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+p {
+  font-decoration: none;
+  font-size: 1em;
+}
+
+h1 {
+  font-decoration: bold;
+  font-size: 4em;
+}
+
+h2 {
+  font-decoration: bold;
+  font-size: 3em;
+}
+
+h3 {
+  font-decoration: bold;
+  font-size: 2em;
+}
+
+nav{
+	text-align: center;
+	font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+  .header_container{
+  }
+
+  .header_text{
+    text-align: left;
+    font-family: fantasy;
+    background-color: LightPink;
+    background: url(../images/foto.png) no-repeat;
+    background-position:right;
+    background-size: contain;
+  }
+div{
+  border: 1px solid #ff00ff;
+}
+.div-container{
+  display: -webkit-flex;
+  display: flex;
+  background-color: lightgrey;
+  border: 1px solid #000000;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-headlines{
+  width: 90%;
+  height: auto;
+  border: 1px solid #aaaaaa;
+  margin: 1em
+}
+
+footer{
+  text-align: center;
+}
+footer p{
+  font-size: 0.7em;
+}
