@@ -1,0 +1,6 @@
+nav > p {
+    padding: 2em;
+    background: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
