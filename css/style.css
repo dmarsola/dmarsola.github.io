@@ -1,48 +1,74 @@
 /*
-https://coolors.co/1b1b1e-1098f7-edf2f4-b89e97-decccc
+
+https://coolors.co/1b1b1e-31353d-b89e97-edf2f4-1098f7
 1b1b1e- eerie black
-1098f7- dodger blue
-edf2f4- anti-flash white
+31353d- onyx
 b89e97- tuscany
-decccc- dust storm
+edf2f4- anti-flash white
+1098f7- dodger blue
 
 */
+
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text');
 
+* { font-family: 'Noticia Text', serif; }
 
-* { font-family: 'Noticia Text', serif; color: #1b1b1e; }
+html { background-color: #1b1b1e; color: #edf2f4; }
 
-html { background-color: #1b1b1e; }
-
-body { width: 90%; margin: auto; }
+body { width: 100%; margin: auto; }
 
 header, footer {
     padding: 1em 0;
-    background-color: #decccc;
     text-align: center;
-    border-radius: 5px;
+    color: #edf2f4;
 }
+header { border-bottom: 3px solid #1098f7; }
+footer { border-top: 3px solid #1098f7; }
 
 .project {
+    color: #31353d;
     background-color: #edf2f4;
     border-radius: 5px;
     border: 1px solid #1b1b1e;
 }
 
 main {
+    width: 95%;
+    margin: auto;
     padding: 1em 0;
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .title {
+    font-size: 1.2em;
+    color: #1098f7;
     width: 100%;
     text-align: center;
     padding: 1em 0;
-    /*background-color: #1b1b1e;*/
-    /*color: #1098f7;*/
     border-bottom: 2px solid #1b1b1e;
 }
 
 .description { padding: 1em; }
+
+a:link { color: #1098f7; font-weight: 900; }
+a:visited { color: #1098f7; }
+a:hover { color: #31353d; }
+a:active {  }
+
+/*              Desktop                */
+
+
+
+
+
+@media all and (min-width: 768px) {
+
+    main { grid-template-columns: 1fr 1fr 1fr; }
+
+    body { width: 90%; }
+
+    /*header, footer { border-radius: 5px; }*/
+
+}
